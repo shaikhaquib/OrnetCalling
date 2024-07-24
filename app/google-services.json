@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "400044901508",
+    "project_id": "ornetcalling",
+    "storage_bucket": "ornetcalling.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400044901508:android:57a8a46683fd93ac322ed1",
+        "android_client_info": {
+          "package_name": "com.dis.ornetcalling"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBl96D8coQPkFOiX8rGbOmrgJd4xCbxRr4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

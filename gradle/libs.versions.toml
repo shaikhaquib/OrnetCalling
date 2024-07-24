@@ -1,0 +1,93 @@
+[versions]
+activityKtx = "1.9.0"
+agp = "8.5.0"
+coil = "2.6.0"
+customactivityoncrash = "2.4.0"
+eventbus = "3.0.0"
+firebaseCore = "21.1.1"
+firebaseFirestore = "25.0.0"
+firebaseMessagingKtx = "24.0.0"
+fragmentKtx = "1.8.1"
+hiltAndroid = "2.48"
+imagePicker = "v1.0.1"
+kotlin = "1.9.0"
+coreKtx = "1.13.1"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+kotlinxCoroutinesCore = "1.7.1"
+kotlinxMetadataJvm = "0.5.0"
+library = "4.0.0"
+lifecycleExtensions = "2.2.0"
+lifecycleRuntimeKtx = "2.7.0"
+lifecycleViewmodelKtx = "2.6.1"
+loggingInterceptor = "5.0.0-alpha.11"
+lottie = "6.0.1"
+mapsUtilsKtx = "3.4.0"
+material = "1.12.0"
+activity = "1.9.0"
+constraintlayout = "2.1.4"
+playServicesAuth = "21.2.0"
+playServicesAuthApiPhone = "18.1.0"
+playServicesLocation = "21.3.0"
+playServicesMaps = "19.0.0"
+retrofit = "2.9.0"
+roomRuntime = "2.6.1"
+rxandroid = "2.1.0"
+timber = "5.0.1"
+toasty = "1.5.2"
+translate = "17.0.2"
+
+[libraries]
+activity-ktx = { module = "androidx.activity:activity-ktx", version.ref = "activityKtx" }
+android-maps-utils = { module = "com.google.maps.android:android-maps-utils", version.ref = "mapsUtilsKtx" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-fragment-ktx = { module = "androidx.fragment:fragment-ktx", version.ref = "fragmentKtx" }
+androidx-lifecycle-extensions = { module = "androidx.lifecycle:lifecycle-extensions", version.ref = "lifecycleExtensions" }
+androidx-lifecycle-runtime-ktx = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodelKtx" }
+androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "roomRuntime" }
+androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "roomRuntime" }
+androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "roomRuntime" }
+androidx-room-testing = { module = "androidx.room:room-testing", version.ref = "roomRuntime" }
+coil = { module = "io.coil-kt:coil", version.ref = "coil" }
+converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit" }
+customactivityoncrash = { module = "cat.ereza:customactivityoncrash", version.ref = "customactivityoncrash" }
+eventbus = { module = "org.greenrobot:eventbus", version.ref = "eventbus" }
+firebase-core = { module = "com.google.firebase:firebase-core", version.ref = "firebaseCore" }
+firebase-firestore = { module = "com.google.firebase:firebase-firestore", version.ref = "firebaseFirestore" }
+firebase-messaging-ktx = { module = "com.google.firebase:firebase-messaging-ktx", version.ref = "firebaseMessagingKtx" }
+hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hiltAndroid" }
+hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "hiltAndroid" }
+image-picker = { module = "com.github.colourmoon:image-picker", version.ref = "imagePicker" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinxCoroutinesCore" }
+kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinxCoroutinesCore" }
+kotlinx-metadata-jvm = { module = "org.jetbrains.kotlinx:kotlinx-metadata-jvm", version.ref = "kotlinxMetadataJvm" }
+library = { module = "com.github.chuckerteam.chucker:library", version.ref = "library" }
+library-no-op = { module = "com.github.chuckerteam.chucker:library-no-op", version.ref = "library" }
+logging-interceptor = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "loggingInterceptor" }
+lottie = { module = "com.airbnb.android:lottie", version.ref = "lottie" }
+maps-utils-ktx = { module = "com.google.maps.android:maps-utils-ktx", version.ref = "mapsUtilsKtx" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+okhttp = { module = "com.squareup.okhttp3:okhttp", version.ref = "loggingInterceptor" }
+play-services-auth = { module = "com.google.android.gms:play-services-auth", version.ref = "playServicesAuth" }
+play-services-auth-api-phone = { module = "com.google.android.gms:play-services-auth-api-phone", version.ref = "playServicesAuthApiPhone" }
+play-services-location = { module = "com.google.android.gms:play-services-location", version.ref = "playServicesLocation" }
+play-services-maps = { module = "com.google.android.gms:play-services-maps", version.ref = "playServicesMaps" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+rxandroid = { module = "io.reactivex.rxjava2:rxandroid", version.ref = "rxandroid" }
+timber = { module = "com.jakewharton.timber:timber", version.ref = "timber" }
+toasty = { module = "com.github.GrenderG:Toasty", version.ref = "toasty" }
+translate = { module = "com.google.mlkit:translate", version.ref = "translate" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+
